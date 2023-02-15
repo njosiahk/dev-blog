@@ -1,0 +1,243 @@
+<h1>Week 01</h1>
+<h3>HTML</h3>
+<ul>
+  <li>
+    Tags
+    <ul>
+      <li><h3>h1 to h6 --- used to signify headers</h3></li>
+      <li>div --- used as a divider</li>
+      <li>p --- used as a divider (mainly for text paragraphs)</li>
+      <li><b>b --- used to make text bold</b></li>
+      <li><em>em --- used to emphasize text</em></li>
+      <li><strong>strong --- used to make text bold</strong></li>
+      <li><span>span --- spans across the whole page/parent element</span></li>
+      <li><a href="#">a --- used as an anchor for links</a></li>
+      <li>
+        <img src="jack.jpg" style="max-width: 25%; max-height: 50%" /> --- used
+        to add images
+      </li>
+      <li>
+        <ol>
+          <li>ordered list</li>
+        </ol>
+      </li>
+      <li>
+        <ul>
+          <li>unordered list</li>
+        </ul>
+      </li>
+      <li>
+        <table>
+          <th>table heading</th>
+          <tr>
+            <td>table</td>
+          </tr>
+        </table>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1>Week 02</h1>
+<h3>HTML</h3>
+<ul>
+  <li><header>header --- used as a divider</header></li>
+  <li><nav>nav --- used as a divider</nav></li>
+  <li><article>article --- used as a divider</article></li>
+  <li><section>section --- used as a divider</section></li>
+  <li><aside>aside --- used as a divider</aside></li>
+</ul>
+
+<h3>CSS</h3>
+<ul>
+  <li style="color: red">color</li>
+  <li style="background-color: green">background-color</li>
+  <li style="text-align: center">text-align</li>
+  <li class="class">.classes</li>
+  <li class="ids">#ids</li>
+  <li><a>:link</a></li>
+  <li><a>:visited</a></li>
+  <li><a>:hover</a></li>
+  <li><a>:active</a></li>
+  <li><a>:focus</a></li>
+  <li>fonts</li>
+  <li style="font-size: 40px">font-size</li>
+  <li style="margin: 20px; background-color: antiquewhite">margin</li>
+  <li style="padding: 20px; background-color: antiquewhite">padding</li>
+</ul>
+
+<h1>Week 03</h1>
+<h3>HTML</h3>
+<input type="text" />
+<input type="date" />
+<input type="color" />
+<input type="file" />
+<input type="checkbox" />
+<input type="radio" />
+<h4>selectors: decendant/grouping/inheritance</h4>
+<h4>specifity: universal(*)/type(p)/class(.example)/id(#example)/!important</h4>
+<h4>positioning: static/relative/absolute/fixed</h4>
+<h4>z-index</h4>
+<h4>flexboxes</h4>
+<h3>Wireframes</h3>
+
+<h1>Week 04</h1>
+<h2>Responsive Images</h2>
+<ul>
+  <li>
+    <p>.responsive-img{ width: 100%; height: auto; }</p>
+    <p>
+      By setting a relative unit, we make our images fluid and they will resize
+      accordingly
+    </p>
+  </li>
+  <li>
+    <p>.responsive-img-max{ max-width: 100% height: auto; }</p>
+    <p>
+      The max-width property sets a maximum width for an element, which does not
+      allow the width of that element to be larger than its max-width value (but
+      it can be smaller).
+    </p>
+  </li>
+  <li>
+    <p>
+      Auto fit to box .responsive-img-cover{ background-image: url(...);
+      background-size: cover; }
+    </p>
+  </li>
+</ul>
+<h2>How to use Github</h2>
+<h2>Wireframing</h2>
+
+<h1>Week 05</h1>
+<h2>Javascript Basics</h2>
+<img src="java.png" />
+<p>
+  Numbers: Floating point numbers, decimals & Integers Strings: Sequence of
+  characters, text Booleans: Logical Data (True or False) Undefined: Data type
+  of a variable that does not have a value yet Null: Also means non-existent
+</p>
+<p>
+  Note that for String variable, the value must be enclosed using either the
+  double quotes or the single quotes. (It’s more common to use the double
+  quotes).
+</p>
+<p>
+  '8' === 8 returns false Because they are not the same data type or value. '8'
+  === '8' returns true Because they are the same data type and value.
+</p>
+<p>
+  '8' !== 8 returns true Because they are not the same data type or value. '8'
+  !== '8' returns false Because they are the same data type and value.
+</p>
+<p>
+  'Hello' == 'Goodbye' returns false because they are not the same value 5 ==
+  '5' returns true Because they have the same value although their data types
+  are different
+</p>
+<p>
+  'Hello' != 'Goodbye' returns true because they are not the same string 'Hello'
+  != 'Hello' returns false Because they are the same string
+</p>
+
+<h1>Week 07</h1>
+<h2>DOM Tree</h2>
+<p>
+  getElementById(); Uses the value of an element's id attribute querySelector();
+  Uses a CSS selector, and returns the first matching element. Classes or Ids
+  can be used
+</p>
+<p>
+  getElementsByClassName(); Selects all elements that have a specific value for
+  their class attribute getElementsByTagName(); Selects all elements that have
+  the specified tag name querySelectorAll() Uses a CSS selector to select all
+  matching elements
+</p>
+<p>
+  parentNode Selects the parent of the current node previousSibling/nextSibling
+  Selects the previous or next sibling from the DOM tree firstChild/lastChild
+  Selects the first or last child of the current element
+</p>
+<p>
+  If you are working with the element more than once, it is best you store it in
+  a variable. var itemOne = getElementById("one");
+</p>
+<p>ids, classes and css selectors can also be used.</p>
+
+<h1>Week 08</h1>
+<h2>jQuery</h2>
+<p>Scripts should be placed before the closing /body tag</p>
+<p>
+  • Script is not blocking other things from downloading • The DOM has already
+  loaded by the time the script is executed
+</p>
+<p>
+  With jQuery, you can ✔Select or find elements ✔Update their content / size /
+  visibility ✔Simplify event handling
+</p>
+<p>
+  $("div") – selects all /p div elements $("li") – selects all li elements
+  $("p") – selects all p elements We have to select by CSS to narrow down
+</p>
+<p>
+  $("#page") = select any with id of 'page' $(".hot") = select any with class of
+  'hot' $("li.cool") = select only li with class of 'cool' $("li.cool a") =
+  select only a that are inside li with class of 'cool'
+</p>
+<p>Use $(document).ready(); to load JS only when page is ready</p>
+<h2>AJAX</h2>
+<p>
+  AJAX is a technique for loading data into part of a page without having to
+  refresh the entire page. The data is often sent in a format called JavaScript
+  Object Notation (or JSON) AJAX The ability to load new content into part of a
+  page improves the user experience because the user does not have to wait for
+  an entire page to load if only a portion of the page is being updated.
+</p>
+<p>
+  Live search (or autocomplete) commonly uses Ajax. Eg. Google search. When you
+  type into the search bar on the home page, sometimes you will see results
+  coming up before you have finished typing
+</p>
+<p>
+  Websites with user-generated content (such as Twitter and Flickr) may allow
+  you to display your information (such as your latest tweets or photographs)
+  This involves collecting data from their servers or tapping on APIs
+</p>
+
+<h1>Week 09</h1>
+<h2>Bootstrap</h2>
+<p>
+  The Bootstrap Grid system helps you to create your layout and easily build a
+  responsive website. The grid is divided into 12 columns, so your layout will
+  be based on this. The most basic column is calling the “col” class then we can
+  decide which device breakpoint do we want
+</p>
+<a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/"
+  >SEE HERE</a
+>
+
+<h1>Week 12</h1>
+<h2>RestDB</h2>
+<p>
+  I learned how to create a RestDB API, create, edit and delete data entries and
+  implement the API into a simple website.
+</p>
+
+<h1>Week 14</h1>
+<h2>Lottie</h2>
+]
+<p>
+  Lottie is a great way to perform animations and allow additional interactivity
+  on your site or mobile platforms. A Lottie is a JSON-based animation file
+  format that enables designers to ship animations on any platform as easily as
+  shipping static assets. They are small files that work on any device and can
+  scale up or down without pixelation
+</p>
+<p>
+  Step 1: Place Lottie Player Javascript Step 2: Create a lottie player script
+  in your HTML and reference the JSON file Step 3: Add in Javascript to
+  determine how your Lottie JSON will work
+</p>
+<a href="https://lottiefiles.com/search?q=loading&category=animations"
+  >LOTTIE</a
+>
